@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav {
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+    .top-nav h2, a {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    .left-a {
+        margin-left: 70.1%;
+    }
+
+.contents {
+    margin: 20px auto;
+    width: 40%;
+    padding: 5px;
+}
+
+.form {
+    display: inline-block;
+    margin: auto;
+    font-size: 15px;
+    width: 45%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+
+.form label, input[type=text], input[type=password] {
+    width: 99%;
+    display: block;
+    padding: 5px;
+}
+
+.save-btn {
+    padding: 5px 10px;
+    margin: 10px;
+    margin-left: 85.4%;
+}

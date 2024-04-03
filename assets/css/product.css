@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav {
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+    .top-nav h2, a {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    .left-a {
+        margin-left: 70.1%;
+    }
+
+section {
+    margin: 20px auto;
+    width: 45%;
+    padding: 5px;
+}
+
+#review_box {
+    width: 100%;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin-left: 91.7%;
+    color: white;
+    background-color: green;
+    border: 2px solid black;
+}
+span {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.reviews, .reply_form {
+    margin: 15px auto;
+    width: 44.5%;
+}
+
+.reviews {
+    margin: 10px auto 10px;
+    border: 1px solid black;
+    padding: 30px;
+}
+.replies {
+    width: 39%;
+    margin-left: 33.2%;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 30px;
+}
+    #reply_box {
+        width: 87.5%;
+        margin-left: 12.5%;
+        height: 150px;
+        padding: 30px;
+    }
+    #reply-btn {
+        margin-left: 92.4%;
+    }
+
+.review_name, .reply_name, .review_age, .reply_age {
+    display: inline;
+}
+.review_age, .reply_age {
+    float: right;
+    position: relative;
+}
